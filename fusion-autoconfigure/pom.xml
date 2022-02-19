@@ -25,12 +25,9 @@
             <artifactId>spring-boot-autoconfigure</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-logging</artifactId>
-        </dependency>
-        <dependency>
             <groupId>com.jucosorin</groupId>
             <artifactId>fusion-core</artifactId>
+            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>

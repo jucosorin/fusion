@@ -13,4 +13,9 @@ public class FusionProperties {
      * Fusion version
      */
     private String version;
+
+    /**
+     * Enable the fusion starter
+     */
+    private boolean enabled;
 }

@@ -24,6 +24,12 @@
             <groupId>com.jucosorin</groupId>
             <artifactId>fusion-spring-boot-starter</artifactId>
         </dependency>
+        <!-- Explicitly include the dependency on fusion-core since the fusion-spring-boot-starter marks it optional=true -->
+        <!-- Without it the starter will not activate fusion since we have a @ConditionalOnClass in the FusionAutoConfiguration class -->
+        <dependency>
+            <groupId>com.jucosorin</groupId>
+            <artifactId>fusion-core</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
